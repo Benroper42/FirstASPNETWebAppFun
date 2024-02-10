@@ -1,0 +1,69 @@
+body {
+    background-color: #1C7C54; /* Wimbledon green */
+    color: #FFF; /* White text */
+    font-family: Arial, sans-serif; /* Use Arial font */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+/* Style links */
+a {
+    color: #FFF; /* White */
+    text-decoration: none; /* Remove underline */
+}
+
+    a:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center align content */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-height: 200px;
+    font-size: 14px; /* Adjust the size as needed */
+}
+
+    .image-container img {
+        max-width: 50%;
+        height: auto;
+        margin: 0 10px;
+    }
+
+.text-container {
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 40px); /* Adjust as needed */
+    background-color: #FFF; /* White background color */
+    color: #000; /* Black text color */
+    text-align: left;
+    padding: 20px;
+    height: 100px;
+    margin: 0 20px 20px; /* Adjusted margin for bottom */
+}
+
+
+
+
+
+
